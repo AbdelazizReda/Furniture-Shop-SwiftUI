@@ -13,7 +13,7 @@ struct TitleShow: View {
         Text("Find The \nBest ")
             .font(.custom("PlayfairDisplay-Regular", size: 28))
                     .foregroundColor(Color("Primary"))
-        + Text("Furnutiuer")
+        + Text("Furniture")
             .font(.custom("PlayfairDisplay-Bold", size: 28))
             .foregroundColor(Color("Primary"))
 

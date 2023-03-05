@@ -23,10 +23,10 @@ struct SearchView: View {
             .cornerRadius(10)
             
             Button(action: {}) {
-                Image("Scan")
+                Image("barcode-scanner")
                     .resizable()
-                    
-                    .frame(width: 45 , height: 50)
+                    .frame(width: 35 , height: 35)
+                    .padding(.all , 10)
                     .background(Color("Primary"))
 //                    .foregroundColor(Color("Primary"))
 
