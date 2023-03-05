@@ -12,9 +12,12 @@ struct TitleShow: View {
 
         Text("Find The \nBest ")
             .font(.custom("PlayfairDisplay-Regular", size: 28))
-//                    .foregroundColor(Color("primary"))
+                    .foregroundColor(Color("Primary"))
         + Text("Furnutiuer")
-            .font(.custom("PlayfairDisplay-Regular", size: 28))    }
+            .font(.custom("PlayfairDisplay-Bold", size: 28))
+            .foregroundColor(Color("Primary"))
+
+    }
 }
 
 struct TitleShow_Previews: PreviewProvider {
